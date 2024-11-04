@@ -43,11 +43,11 @@
 .navbar-search-icon{
     position: relative;
 }
-.navbar-search-icon.dot{
+.navbar-search-icon .dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-origin: black;
+    background-color: tomato;
     border-radius: 10px;
     top: -8px;
     right: -8px;
