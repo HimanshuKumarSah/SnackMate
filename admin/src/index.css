@@ -6,14 +6,25 @@
   box-sizing: border-box;
   font-family: Outfit;
 }
-
+body{
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
 a{
   text-decoration: none;
   color: inherit;
 }
-
 hr{
   border: none;
   height: 1px;
-  background-color: aliceblue;
+  background-color: gainsboro;
+}
+.app-content{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
