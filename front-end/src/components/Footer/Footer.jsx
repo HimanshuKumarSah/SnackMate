@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Dummy Text</p>
+                <p>The food delivery app for theaters you didn't know you need!</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -27,12 +27,12 @@ const Footer = () => {
                 <h2>Get in touch with us!</h2>
                 <ul>
                     <li>+1234567890</li>
-                    <li>dummyemail@gmail.com</li>
+                    <li>tomato.ordering@gmail.com</li>
                 </ul>
             </div>
         </div>
         <hr/>
-        <p className='footer-copyright'>Copyright 2024 (c) SnackMate.com - All Rights Reserved</p>
+        <p className='footer-copyright'>Copyright 2025 (c) SnackMate.com - All Rights Reserved</p>
     </div>
   )
 }
